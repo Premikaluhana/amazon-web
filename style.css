@@ -1,0 +1,395 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+.navbar {
+  background-color: #0f1111;
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+  cursor: pointer;
+}
+.nav-logo {
+  display: flex;
+}
+
+/* .nav-loc{
+    
+} */
+
+.loc-img {
+  height: 14px;
+  color: white;
+}
+
+.nav-loc-first {
+  color: #cccccc;
+}
+
+.nav-loc-second {
+  color: #ffffff;
+  display: flex;
+}
+
+.search {
+  width: 700px;
+}
+
+.search:hover {
+  color: rgb(255, 145, 0);
+}
+.search-all {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 40px;
+  text-align: center;
+  width: 45px;
+  background-color: #e6e6e6;
+}
+
+.search-input {
+  height: 39px;
+  width: 620px;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  height: 40px;
+  width: 20px;
+  padding: 5px 2px ;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.language{
+    margin-top: 10px;
+    padding: 2px 25px 25px 25px;
+}
+.nav-signin {
+  border: none;
+}
+
+span {
+  font-size: 10px;
+}
+
+.nav-sec {
+  font-weight: 500;
+}
+
+span {
+  font-size: 10px;
+}
+
+.return-sec {
+  font-size: 700;
+}
+
+.cart i {
+  font-size: 35px;
+}
+
+.cart {
+  font-weight: 400;
+}
+
+.panel {
+  background-color: #222f3d;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.panel-all {
+  padding: 15px;
+}
+
+.panel-opp {
+  display: flex;
+  align-items: center;
+}
+
+.panel-opp p {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.hero-sec-pic {
+  background: url(./images/home-pic.jpg);
+  background-size: cover;
+  height: 250px;
+}
+
+.box-sec {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e3e6e6;
+  border: none;
+  flex-wrap: wrap;
+}
+.box {
+  border: 2px solid black;
+  height: 450px;
+  width: 23%;
+  background-color: #ffffff;
+  border: none;
+  /* display: flex; */
+}
+
+.box1 h2 {
+  padding: 22px;
+}
+.box1-img {
+  background: url(./images/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg);
+  height: 300px;
+  margin-right: 35px;
+}
+
+.box1 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box1 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box2 h2 {
+  padding: 22px;
+}
+.box2-img {
+  background: url(./images/box2_.jpg);
+  height: 300px;
+}
+
+.box2 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box2 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box3 h2 {
+  padding: 22px;
+}
+.box3-img {
+  background: url(./images/box3_.jpg);
+  height: 300px;
+  /* margin-right: 35px; */
+}
+
+.box3 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box3 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box4 h2 {
+  padding: 22px;
+  color: #0f1111;
+}
+
+.box4-img {
+  background: url(./images/box4_.jpg);
+  height: 300px;
+  /* background-color: #fec8d8; */
+  /* margin-right: 35px; */
+}
+
+.box4 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box4 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box5 h2 {
+  padding: 22px;
+}
+.box5-img {
+  background: url(./images/box5_.jpg);
+  height: 300px;
+  margin-right: 35px;
+}
+
+.box5 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box5 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box6 h2 {
+  padding: 22px;
+}
+.box6-img {
+  background: url(./images/box6_.jpg);
+  height: 300px;
+}
+
+.box6 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box6 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box7 h2 {
+  padding: 22px;
+}
+.box7-img {
+  background: url(./images/box7_.jpg);
+  height: 300px;
+}
+
+.box7 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box7 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box8 h2 {
+  padding: 22px;
+}
+.box8-img {
+  background: url(./images/box8_.jpg);
+  height: 300px;
+  margin-right: 35px;
+}
+
+.box8 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box8 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.box8 h2 {
+  padding: 22px;
+}
+.box8-img {
+  background: url(./images/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg);
+  height: 300px;
+  margin-right: 35px;
+}
+
+.box8 p {
+  padding: 30px;
+  color: #007185;
+  font-size: 13px;
+}
+
+.box8 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer-signin {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.footer-signin button {
+  background-color: #ffe093;
+  border: none;
+  color: #0f1111;
+  padding: 0px 87px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.footerpanel{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+    background-color: #222f3d;
+    color: white;
+    height: 30px;
+    padding-top: 6px;
+}
+
+.footerpanel1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#222f3d;
+    color: #ffffff;
+    height: 300px;
+}
+
+ul{
+    margin-top: 40px;
+}
+.footerpanel1 ul a{
+    display: block;
+    margin-top: 15px;
+    font-size: 10px;
+    color: #dddddd;
+}
+
+.footerpanel2 {
+    background-color: #222f3d;
+    height: 100px;
+    border-top: 1px solid white;
+}
+
+.footer-logo{
+    background: url(./images/white-amazon-logo-png-6.png);
+    height: 50px;
+    width: 130px;
+    background-size: cover;
+}
+
+.footer-copyright {
+    background-color: #131a22;
+    color: #ffffff;
+    height: 70px;
+    font-size: 12px;
+    text-align: center;
+}
